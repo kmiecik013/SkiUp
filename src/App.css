@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.SkiHeader {
+  display: flex;
+  justify-content: center;
+  font-size: 70px;
+  padding-bottom: 40px;
+
+}
+
+.resort-row {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px; 
+  width: 100%;
+}
+
+.resort-case:hover {
+  transform: scale(1.1)
+
+}
+  
+
+.ski-content {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.resort-case {
+  background-color:#98E3FA;
+  padding:10px;
+  border-radius: 5px;
+  border: #3D7ACA solid 2px;
+  width: 15%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.resort-title {
+  font-weight: bold;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
