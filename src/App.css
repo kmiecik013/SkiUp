@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -47,6 +48,61 @@
   font-weight: bold;
 }
 
+.header-title{ 
+  display: flex;
+  justify-content: space-around;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-bottom: 30px;
+}
+
+.skiUP-title:hover {
+  background:lightblue;   
+  border-radius: 10px;
+
+}
+
+.ski-logo1 {
+  height:100px;
+  animation: rotation1 5s infinite linear;
+}
+
+.ski-logo2 {
+  height:100px;
+  animation: rotation2 5s infinite linear;
+} 
+
+@keyframes rotation1 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+@keyframes rotation2 {
+  from {
+    transform: rotate(359deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+.skiUP-title {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 50px;
+}
+
+.footnotes {
+  display: flex;
+  justify-content: space-between; 
+  padding-bottom: 20px;
+  font-weight: bold;
+  font-style: italic;
+
+}
 
 
 @media (prefers-reduced-motion: no-preference) {

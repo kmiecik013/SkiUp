@@ -6,6 +6,7 @@ import React from "react";
 function ResortList() {
   return (
 
+
    <div className="resort-list">
      <div className="resort-row"> 
       <Resort
