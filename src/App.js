@@ -17,16 +17,16 @@ const url3 = "https://api.openweathermap.org/data/3.0/onecall?lat=33.44&lon=-94.
 
 const url4 = "http://api.weatherunlocked.com/api.weatherunlocked.com/api/resortforecast/999001?app_id=1c24c23e&app_key=a7a9665aa1abbfd3de98c6c2706e4466"
 
-const url5 = "http://api.worldweatheronline.com/premium/v1/ski.ashx?key=f1043f572972409699600438221805&q=45.9237,6.8694&format=json"
+const url5 = "http://api.worldweatheronline.com/premium/v1/ski.ashx?key=f1043f572972409699600438221805&q=45.9237,6.8694&format=xml"
 
 
-let [temp, setTemp] = useState("");
+let [data, setData] = useState("");
 
 useState(() => {
   axios
   .get(url5)
-  .then((res) => setTemp(res.data.weather));
-  console.log(temp,"hello here")
+  .then((res) => setData(res.weather));
+  console.log(data,"hello here")
 }
 )
 
@@ -42,7 +42,7 @@ useState(() => {
     <div>   
       <Header />
 
-        {temp}
+      
 
       <div className ="ski-content"><ResortList /></div> 
       <Footer />
