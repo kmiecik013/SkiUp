@@ -9,6 +9,7 @@ function Resort(props) {
      <div> {props.snow} </div>
       <div>{props.status}</div>
       <div>{props.condition}</div>
+      <div>{props.sky}</div>
        </div>
 
   )

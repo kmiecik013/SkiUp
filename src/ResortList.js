@@ -12,13 +12,16 @@ function ResortList() {
       <Resort
         resort="Chamonix"
         snow="10 cm" 
-        status="okay" />
+        status="okay"
+        sky="blue" />
+        
       
         
       <Resort
         resort="Sunshine"
         snow="10 cm" 
-        status="okay" />
+        status="okay"
+        sky="blue" />
 
       <Resort
         resort="Panarama "
@@ -35,19 +38,22 @@ function ResortList() {
       <Resort
         resort="Kicking Horse "
         snow="10 cm"
-        status="okay" />
+        status="okay"
+        sky="blue" />
       
       <Resort
         resort="Fernie "
         snow="10 cm" 
-        status="okay" />
+        status="okay"
+        sky="blue" />
     </div>
 
     <div className="resort-row">
       <Resort
         resort="Big White "
         snow="10 cm"
-        status="okay" />
+        status="okay"
+        sky="blue" />
 
       <Resort
         resort="Red "
@@ -57,24 +63,28 @@ function ResortList() {
       <Resort
         resort="WhiteWater "
         snow="10 cm" 
-        status="okay" />
+        status="okay"
+        sky="blue" />
     </div>
 
     <div className="resort-row">
       <Resort
         resort="Sun Peaks "
         snow="10 cm" 
-        status="okay" />
+        status="okay"
+        sky="blue" />
 
       <Resort
         resort="Whistler "
         snow="10 cm" 
-        status="okay" />
+        status="okay"
+        sky="blue" />
       
       <Resort
         resort="Powder King"
         snow="10 cm" 
-        status="okay" /> 
+        status="okay"
+        sky="blue" /> 
     </div>
    </div>
 
